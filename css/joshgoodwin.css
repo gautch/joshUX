@@ -2,9 +2,20 @@ body {
     background-color: #e2e1de;
 }
 
+img.me {
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+    border: 2px #b30d0d solid;
+    border-radius: 100px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+
+}
+
 .link--page {
     color: #313131;
 }
+
 
 .link:hover, .link:focus {
     color: #434343;
@@ -37,7 +48,11 @@ video {
 }
 
 .link--page:not(.link--faded)::before {
-    background: #313131;
+    background: #b30d0d;
+}
+
+.red {
+    color: #b30d0d;
 }
 
 .row.icongrid {
