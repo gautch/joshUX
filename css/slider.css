@@ -44,34 +44,35 @@
 }
 
 .slider .quotecount {
-      font-weight: 200;
+    font-weight: 200;
     line-height: 1.8;
     font-size: 0.8em;
     text-align: right;
 }
 
 .slider li.anim1 {
-  animation: cycle 35s linear infinite;
+  animation: cycle 15s linear infinite;
 }
 
 .slider li.anim2 {
-  animation: cycle2 45s linear infinite;
+  animation: cycle2 15s linear infinite;
 }
 
 .slider li.anim3 {
-  animation: cycle3 45s linear infinite;
+  animation: cycle3 15s linear infinite;
 }
 
 .slider li.anim4 {
-  animation: cycle4 45s linear infinite;
+  animation: cycle4 15s linear infinite;
 }
 
 .slider li.anim5 {
-  animation: cycle5 45s linear infinite;
+  animation: cycle5 15s linear infinite;
 }
 
 .slider:hover li {
   animation-play-state: paused;
+  cursor: cell;
 }
 
 @keyframes cycle {
