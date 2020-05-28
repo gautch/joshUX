@@ -33,6 +33,7 @@
 .slider .quote {
   font-size: 0.95em;
   font-style: italic;
+  padding-bottom: 0.5em;
 }
 
 .slider .source {
@@ -40,7 +41,10 @@
     line-height: 1.8;
     font-size: 0.8em;
     color: #b30d0d;
-  text-align: right;
+  text-align: left;
+    /* border-bottom: 1px #a09b92 solid; */
+    margin-bottom: 2.2em;
+    padding-bottom: 1em;
 }
 
 .slider .quotecount {

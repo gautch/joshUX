@@ -123,3 +123,7 @@ p.award {
 .article__content {
     margin-top: .8em;
 }
+
+ .quote.hover {
+      color:#a7a7a7;
+  }
