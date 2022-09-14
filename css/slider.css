@@ -31,15 +31,16 @@
 }
 
 .slider .quote {
-  font-size: 0.95em;
+  font-size: 1em;
+  font-weight: bold;
   font-style: italic;
   padding-bottom: 0.5em;
 }
 
 .slider .source {
-  font-weight: 200;
+  font-weight: bold;
     line-height: 1.8;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #b30d0d;
   text-align: left;
     /* border-bottom: 1px #a09b92 solid; */

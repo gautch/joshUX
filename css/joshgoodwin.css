@@ -25,7 +25,7 @@ img.me {
 }
 
 .js .page {
-    background: #d5d4cf;
+    background: #e5e3dc;
     overflow: auto;
 }
 
@@ -91,7 +91,7 @@ p.award {
 }
 
  .icons img {
- 
+
  }
 
  .icons p:first-child {
@@ -114,14 +114,32 @@ p.award {
     transition: width 500ms ease-in-out;
 }
 
+.myheader p {
+  font-weight: bold;
+}
+
+p.myheader.article {
+    font-weight: bold;
+}
+
+.pastheader {
+padding: 3em 0vw 2em;
+}
+
 .article__title {
     margin-bottom: 0;
 }
 .article__time {
-    font-size: .8em;
+    font-size: 1em;
 }
 .article__content {
     margin-top: .8em;
+}
+
+p.article__content {
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
 }
 
  .quote.hover {
